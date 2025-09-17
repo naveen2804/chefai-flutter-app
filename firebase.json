@@ -1,1 +1,36 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"chefai-bc640","appId":"1:212639111912:android:916bbc1d458b4b8dd7475d","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"chefai-bc640","configurations":{"android":"1:212639111912:android:916bbc1d458b4b8dd7475d","web":"1:212639111912:web:3e6a31c54ec4ca0cd7475d"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chefai-bc640",
+          "appId": "1:212639111912:android:916bbc1d458b4b8dd7475d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chefai-bc640",
+          "configurations": {
+            "android": "1:212639111912:android:916bbc1d458b4b8dd7475d",
+            "web": "1:212639111912:web:3e6a31c54ec4ca0cd7475d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
