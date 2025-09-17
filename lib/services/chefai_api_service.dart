@@ -85,7 +85,7 @@ class ChefAIAPIService {
             '<|eot_id|><|start_header_id|>assistant<|end_header_id|>', '')
         .trim();
 
-    final baseUrl = 'http://56.228.3.247:8000/stream';
+    final baseUrl = 'https://56.228.3.247:8000/stream';
     final queryParameters = {
       'topic': topic,
       'system_content': systemContent,
