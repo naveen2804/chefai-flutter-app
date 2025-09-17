@@ -1,0 +1,48 @@
+name: meal_planner
+description: AI Recipe Generator & Meal Planner
+version: 1.0.0+3
+publish_to: 'none' # Recommended for apps not published to pub.dev
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Using the latest stable versions to ensure compatibility
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  file_picker: ^8.0.0+1
+  flutter_markdown: ^0.7.1 # Using a stable, non-discontinued version
+  google_fonts: ^6.2.1
+  url_launcher: ^6.2.6
+  image_picker: ^1.1.2
+  share_plus: ^9.0.0
+  flutter_rating_bar: ^4.0.1
+  permission_handler: ^11.3.1
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  google_sign_in: ^6.2.1
+  flutter_ringtone_player: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_launcher_icons: ^0.13.1
+
+# Keep this configuration for your launcher icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logo_final.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/prompts/

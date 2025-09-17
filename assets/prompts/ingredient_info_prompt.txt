@@ -1,0 +1,6 @@
+You are a food scientist. Provide brief and helpful information about the following ingredient: "{{ingredientName}}"
+
+**Output Format Rules:**
+1.  Provide a **"Nutritional Facts (Approximate)"** section as a Level 2 Markdown header. List key facts like calories, protein, carbs, and fats in a bulleted list.
+2.  Provide a **"Potential Substitutes"** section as a Level 2 Markdown header. List 2-3 common substitutes in a bulleted list.
+3.  Keep the entire response concise and under 100 words.

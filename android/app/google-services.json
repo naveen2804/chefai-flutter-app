@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "212639111912",
+    "project_id": "chefai-bc640",
+    "storage_bucket": "chefai-bc640.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212639111912:android:916bbc1d458b4b8dd7475d",
+        "android_client_info": {
+          "package_name": "com.naveennarayan.chefai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212639111912-4njk05auhlp57aqsr2tf3khr6d39a9qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naveennarayan.chefai",
+            "certificate_hash": "4f6f497445c60abfb7f7f585dad5a5fb6eeff143"
+          }
+        },
+        {
+          "client_id": "212639111912-qb5ero7pphpe6ejj6dsq96t0qh9og37m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naveennarayan.chefai",
+            "certificate_hash": "8d07c046409b0ee6e668201fd4e0290f0eca5b1d"
+          }
+        },
+        {
+          "client_id": "212639111912-r7b4qsppf751aprh4v06kgkvpmhfit5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naveennarayan.chefai",
+            "certificate_hash": "91b2e7a25ed5cdf5b2331905edbbdc27b46a772a"
+          }
+        },
+        {
+          "client_id": "212639111912-g4mcap2874i835bl50btdvddga0vh2hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyxNERl0NuhIcolCQccCNJ7-rb3wv_FY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212639111912-g4mcap2874i835bl50btdvddga0vh2hf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "212639111912-0gjh6rd04kcj105d3dfd46jhvd3us8nn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cookingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
