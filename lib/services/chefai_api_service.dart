@@ -85,7 +85,7 @@ class ChefAIAPIService {
             '<|eot_id|><|start_header_id|>assistant<|end_header_id|>', '')
         .trim();
 
-    final baseUrl = 'http://chefai-api-817179098283.asia-southeast1.run.app/stream';
+    final baseUrl = 'https://chefai-api-817179098283.asia-southeast1.run.app/stream';
     final queryParameters = {
       'topic': topic,
       'system_content': systemContent,
